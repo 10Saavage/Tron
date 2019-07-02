@@ -1,16 +1,22 @@
 package org.view;
 
 
+import java.awt.Color;
 import java.awt.Graphics;
 
 import javax.swing.JPanel;
 
 import org.model.Background;
-import org.model.Player1;
-import org.model.Player2;
+
 
 public class GamePanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1646853571417461449L;
 	Background background = new Background();
+
+	
 	
 	public GamePanel() {
 		
@@ -20,8 +26,18 @@ public class GamePanel extends JPanel {
 	public void paintComponent(Graphics g) {
 		
 		g.drawImage(this.background.getImage(), 0, 0, this.getWidth(), this.getHeight(), this);
-		g.drawImage(Clavier.j1.getImage(), Clavier.j1.getX(), Clavier.j1.getY(), 35, 35, this);
-		g.drawImage(Clavier2.j2.getImage(), Clavier2.j2.getX(), Clavier2.j2.getY(), 35, 35, this);
+		g.setColor(Color.RED);
+		g.fillRect(Clavier.j1.getX(), Clavier.j1.getY(), 10, 10);
+		g.setColor(Color.BLUE);
+		g.fillRect(Clavier2.j2.getX(), Clavier2.j2.getY(), 10, 10);
+		for(int i = 0 ; i < Clavier.red.size(); i++) {
+			g.setColor(Color.RED);
+			g.fillOval(Clavier.red.get(i).getX(), Clavier.red.get(i).getY(), 5, 5);
+		}
+		for(int i = 0 ; i < Clavier2.blue.size(); i++) {
+			g.setColor(Color.BLUE);
+			g.fillOval(Clavier2.blue.get(i).getX(), Clavier2.blue.get(i).getY(), 5, 5);
+		}
 		
 		repaint();
 	}

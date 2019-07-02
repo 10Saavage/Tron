@@ -1,11 +1,13 @@
 package org.view;
 
-import java.awt.Color;
-
 import javax.swing.JFrame;
 
 public class GameFrame extends JFrame {
 	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -8065329797922290749L;
 	public static int largFen=600;
 	public static int hautFen=400;
 	Clavier clavierJ1 = new Clavier();

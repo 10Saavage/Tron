@@ -1,10 +1,27 @@
+/**
+ * 
+ */
 package org.model;
 
 
-public class Player2 {
+/**
+ * @author TOUSSI Manoel
+ *
+ */
+public class PointBleu {
 
-	protected int x=50;
-	protected int y=60;
+	protected int x;
+	protected int y;
+	
+	
+	/**
+	 * @param x
+	 * @param y
+	 */
+	public PointBleu(int x, int y) {
+		this.x = x;
+		this.y = y;
+	}
 	/**
 	 * @return the x
 	 */
