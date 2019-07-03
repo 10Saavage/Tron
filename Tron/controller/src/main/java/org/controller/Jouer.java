@@ -12,11 +12,20 @@ public class Jouer {
 	/**
 	 * 
 	 */
-	static boolean jouer;
-	public Jouer() {
-		// TODO Auto-generated constructor stub
+	
+	
+	public Jouer()  {
+	}
+	
+	public void StartEnd(){	
+		
+	
 	}
 	
 	
 
 }
+	
+	
+
+

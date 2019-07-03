@@ -9,9 +9,9 @@ import org.view.GameFrame;
  */
 public class Main 
 {
-    public static void main( String[] args )
-    {
+    public static void main( String[] args ) throws InterruptedException
+    {	
     	Jouer play = new Jouer();
-        GameFrame gameframe = new GameFrame();
+    	GameFrame gameframe = new GameFrame();  
     }
 }

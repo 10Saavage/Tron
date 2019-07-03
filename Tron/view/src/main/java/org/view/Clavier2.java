@@ -20,6 +20,7 @@ public class Clavier2 implements KeyListener {
 	static ArrayList <PointBleu> blue = new ArrayList<PointBleu>();
 	Collision collision = new Collision();
 	protected static boolean play2 = true;
+	
 
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
@@ -29,9 +30,9 @@ public class Clavier2 implements KeyListener {
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
 		if(play2 == true) {
-			collision.collisionFenetre2();
+			collision.collisonFenetre2();
 			collision.collisionOwnWall2();
-			collision.CollisionMurJoueur();
+			collision.collisionMurJoueur();
 			collision.collisionj1j2();
 			if (e.getKeyCode()==KeyEvent.VK_Z) {
 				blue.add(new PointBleu(j2.getX(), j2.getY()));
@@ -66,6 +67,8 @@ public class Clavier2 implements KeyListener {
 		// TODO Auto-generated method stub
 		
 	}
+
+	
 	
 	
 

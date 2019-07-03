@@ -16,6 +16,9 @@ public class Clavier implements KeyListener {
 	protected static boolean play = true;
 	
 	
+	
+
+	
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
 		
@@ -23,9 +26,9 @@ public class Clavier implements KeyListener {
 
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
-		collision.CollisonFenetre();
+		collision.collisonFenetre();
 		collision.collisionOwnWall();
-		collision.CollisionMurJoueur();
+		collision.collisionMurJoueur();
 		collision.collisionj1j2();
 		if(play == true) {
 			if (e.getKeyCode()==KeyEvent.VK_UP) {
