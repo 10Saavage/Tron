@@ -41,15 +41,7 @@ public class GamePanel extends JPanel {
 			g.setColor(Color.BLUE);
 			g.fillOval(Clavier2.blue.get(i).getX(), Clavier2.blue.get(i).getY(), 5, 5);
 		}
-		try {
-			if(StartEnd.startEnd() == false) {
-				g.setFont(new Font("TimesRoman", Font.PLAIN, 15));
-				g.drawString(Integer.toString((int) StartEnd.temps_jeu), 10, 350);
-			}
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+
 		
 			
 		
