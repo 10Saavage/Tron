@@ -18,6 +18,8 @@ import org.model.PointBleu;
 public class Clavier2 implements KeyListener {
 	static Player2 j2 = new Player2();
 	static ArrayList <PointBleu> blue = new ArrayList<PointBleu>();
+	Collision collision = new Collision();
+	protected static boolean play2 = true;
 
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
@@ -26,21 +28,37 @@ public class Clavier2 implements KeyListener {
 
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
-		if (e.getKeyCode()==KeyEvent.VK_Z) {
-			blue.add(new PointBleu(j2.getX(), j2.getY()));
-			j2.setY(j2.getY()-2);
+		if(play2 == true) {
+			collision.collisionFenetre2();
+			collision.collisionOwnWall2();
+			collision.CollisionMurJoueur();
+			collision.collisionj1j2();
+			if (e.getKeyCode()==KeyEvent.VK_Z) {
+				blue.add(new PointBleu(j2.getX(), j2.getY()));
+				j2.setY(j2.getY()-1);
+				System.out.println(j2.getX() + " " + j2.getY());
+			}
 		}
-		if (e.getKeyCode() == KeyEvent.VK_S){
-			blue.add(new PointBleu(j2.getX(), j2.getY()));
-			j2.setY(j2.getY()+2);
+		if(play2 == true) {
+			if (e.getKeyCode() == KeyEvent.VK_S){
+				blue.add(new PointBleu(j2.getX(), j2.getY()));
+				j2.setY(j2.getY()+1);
+				System.out.println(j2.getX() + " " + j2.getY());
+			}
 		}
-		if (e.getKeyCode() == KeyEvent.VK_Q) {
-			blue.add(new PointBleu(j2.getX(), j2.getY()));
-			j2.setX(j2.getX()-2);
+		if(play2 == true) {
+			if (e.getKeyCode() == KeyEvent.VK_Q) {
+				blue.add(new PointBleu(j2.getX(), j2.getY()));
+				j2.setX(j2.getX()-1);
+				System.out.println(j2.getX() + " " + j2.getY());
+			}
 		}
-		if (e.getKeyCode() == KeyEvent.VK_D) {
-			blue.add(new PointBleu(j2.getX(), j2.getY()));
-			j2.setX(j2.getX()+2);
+		if(play2 == true) {
+			if (e.getKeyCode() == KeyEvent.VK_D) {
+				blue.add(new PointBleu(j2.getX(), j2.getY()));
+				j2.setX(j2.getX()+1);
+				System.out.println(j2.getX() + " " + j2.getY());
+			}
 		}
 	}
 

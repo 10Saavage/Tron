@@ -2,8 +2,8 @@ package org.model;
 
 
 public class Player1 {
-	protected int x=0;
-	protected int y=0;
+	protected int x=5;
+	protected int y=5;
 	/**
 	 * @return the x
 	 */
