@@ -31,6 +31,9 @@ public class BDConnection implements BDconnexion {
 		Insertion();
 	}
 
+	/**
+	 *open database
+	 */
 	public boolean open() {
 		// TODO Auto-generated method stub
 		try {
@@ -52,6 +55,9 @@ public class BDConnection implements BDconnexion {
 		return true;
 	}
 
+	/**
+	 *Insertion of data
+	 */
 	public void Insertion() {
 		// TODO Auto-generated method stub
 		try {

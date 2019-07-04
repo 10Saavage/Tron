@@ -15,7 +15,6 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
 		<attributes>
-			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -25,5 +24,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="/Tron/Ressources/connecteur sql/mysql-connector-java-5.1.6-bin.jar"/>
+	<classpathentry kind="lib" path="/Tron/Ressources/JUnit/hamcrest-library-2.1.jar"/>
+	<classpathentry kind="lib" path="/Tron/Ressources/JUnit/junit-4.12.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

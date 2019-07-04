@@ -15,6 +15,10 @@ public class Jouer {
 	public Jouer() {
 		execution();
 	}
+	
+	/**
+	 * execute program
+	 */
 	@SuppressWarnings("unused")
 	public void execution() {
 		GameFrame gameFrame = new GameFrame();

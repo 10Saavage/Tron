@@ -9,9 +9,7 @@ import org.model.Background;
 
 
 public class GamePanel extends JPanel {
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1646853571417461449L;
 	Background background = new Background();
 
@@ -22,6 +20,9 @@ public class GamePanel extends JPanel {
 	}
 	
 	
+	/**
+	 *
+	 */
 	public void paintComponent(Graphics g) {
 		
 		g.drawImage(this.background.getImage(), 0, 0, this.getWidth(), this.getHeight(), this);

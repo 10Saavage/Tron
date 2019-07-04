@@ -11,6 +11,10 @@ public class StartEnd {
 	static long temps_début= System.currentTimeMillis();
 	static long temps_jeu;
 	// TODO Auto-generated constructor stub
+	
+	/**
+	 * @return the tab
+	 */
 	@SuppressWarnings("unused")
 	public static BoolTime startEnd() {
 		BoolTime tab = new BoolTime();

@@ -24,6 +24,9 @@ public class Clavier implements KeyListener {
 		
 	}
 
+	/**
+	 *
+	 */
 	public void keyPressed(KeyEvent e) {
 		// TODO Auto-generated method stub
 		collision.collisonFenetre();
@@ -34,28 +37,25 @@ public class Clavier implements KeyListener {
 			if (e.getKeyCode()==KeyEvent.VK_UP) {
 				red.add(new PointRouge(j1.getX(), j1.getY()));
 				j1.setY(j1.getY()-1);
-				System.out.println(j1.getX() + " " + j1.getY());
+				
 			}
 		}
 		if(play == true) {
 			if (e.getKeyCode() == KeyEvent.VK_DOWN){
 				red.add(new PointRouge(j1.getX(), j1.getY()));
 				j1.setY(j1.getY()+1);	
-				System.out.println(j1.getX() + " " + j1.getY());
 			}
 		}
 		if(play ==  true) {
 			if (e.getKeyCode() == KeyEvent.VK_LEFT) {
 				red.add(new PointRouge(j1.getX(), j1.getY()));
 				j1.setX(j1.getX()-1);
-				System.out.println(j1.getX() + " " + j1.getY());
 			}
 		}
 		if(play == true) {
 			if (e.getKeyCode() == KeyEvent.VK_RIGHT) {
 				red.add(new PointRouge(j1.getX(), j1.getY()));
 				j1.setX(j1.getX()+1);
-				System.out.println(j1.getX() + " " + j1.getY());
 			}
 		}
 	}
