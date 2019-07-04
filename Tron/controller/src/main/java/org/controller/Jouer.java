@@ -3,27 +3,22 @@
  */
 package org.controller;
 
+import org.view.GameFrame;
+
+
 /**
  * @author TOUSSI Manoel
  *
  */
 public class Jouer {
 	
-	/**
-	 * 
-	 */
-	
-	
-	public Jouer()  {
+	public Jouer() {
+		execution();
 	}
-	
-	public void StartEnd(){	
-		
-	
+	@SuppressWarnings("unused")
+	public void execution() {
+		GameFrame gameFrame = new GameFrame();
 	}
-	
-	
-
 }
 	
 	

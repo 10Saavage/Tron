@@ -2,9 +2,9 @@ package org.view;
 
 
 import java.awt.Color;
-import java.awt.Font;
 import java.awt.Graphics;
 
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import org.model.Background;
@@ -27,8 +27,6 @@ public class GamePanel extends JPanel {
 	public void paintComponent(Graphics g) {
 		
 		g.drawImage(this.background.getImage(), 0, 0, this.getWidth(), this.getHeight(), this);
-		g.setFont(new Font("TimesRoman", Font.PLAIN, 15));
-		g.drawString(Integer.toString((int) StartEnd.temps_jeu), 10, 350);
 		g.setColor(Color.RED);
 		g.fillRect(Clavier.j1.getX(), Clavier.j1.getY(), 10, 10);
 		g.setColor(Color.BLUE);
@@ -41,12 +39,10 @@ public class GamePanel extends JPanel {
 			g.setColor(Color.BLUE);
 			g.fillOval(Clavier2.blue.get(i).getX(), Clavier2.blue.get(i).getY(), 5, 5);
 		}
-
-		
-			
 		
 		repaint();
 	}
+	
 	
 	
 
