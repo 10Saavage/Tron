@@ -3,8 +3,6 @@ package org.view;
 
 import java.awt.Color;
 import java.awt.Graphics;
-
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 import org.model.Background;
