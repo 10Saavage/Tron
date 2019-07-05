@@ -10,9 +10,21 @@ import org.model.Player1;
 
 
 public class Clavier implements KeyListener {
+	/**
+	 * création du joueur 1
+	 */
 	static Player1 j1 = new Player1();
+	/**
+	 * pour récupérer les valeurs du mur formés par le joueur
+	 */
 	static ArrayList <PointRouge> red = new ArrayList<PointRouge>();
+	/**
+	 * récupérer les méthodes de la classe Collision
+	 */
 	Collision collision = new Collision();
+	/**
+	 * pour bien gére la fin du jeu
+	 */
 	protected static boolean play = true;
 	
 	

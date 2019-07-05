@@ -10,13 +10,19 @@ package org.model;
  */
 public class PointBleu {
 
+	/**
+	 * position x
+	 */
 	protected int x;
+	/**
+	 * position y
+	 */
 	protected int y;
 	
 	
 	/**
-	 * @param x
-	 * @param y
+	 * @param x position x
+	 * @param y position y
 	 */
 	public PointBleu(int x, int y) {
 		this.x = x;

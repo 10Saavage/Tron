@@ -2,7 +2,13 @@ package org.model;
 
 
 public class Player1 {
+	/**
+	 * position x fixé 
+	 */
 	protected int x=5;
+	/**
+	 * position y fixé
+	 */
 	protected int y=5;
 	/**
 	 * @return the x

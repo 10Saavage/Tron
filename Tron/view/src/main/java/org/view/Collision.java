@@ -10,12 +10,11 @@ import org.contract.ObjetJeu;
  *
  */
 public class Collision implements ObjetJeu {
+	/**
+	 * récupére le temps de fin
+	 */
 	protected static long temps;
 	
-	public Collision() {
-		
-	}
-
 
 	/**
 	 * collision player1 with window

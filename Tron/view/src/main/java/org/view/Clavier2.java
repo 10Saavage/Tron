@@ -16,9 +16,21 @@ import org.model.PointBleu;
  *
  */
 public class Clavier2 implements KeyListener {
+	/**
+	 * création du deuxième joueur
+	 */
 	static Player2 j2 = new Player2();
+	/**
+	 * récupérer les coordonnées du mur formés par le joueur 2
+	 */
 	static ArrayList <PointBleu> blue = new ArrayList<PointBleu>();
+	/**
+	 * utiliser les méthodes de la classe Collision
+	 */
 	Collision collision = new Collision();
+	/**
+	 * pour bien gérer la fin du jeu
+	 */
 	protected static boolean play2 = true;
 	
 
@@ -32,6 +44,9 @@ public class Clavier2 implements KeyListener {
 		
 	}
 
+	/**
+	 *
+	 */
 	public void keyReleased(KeyEvent e) {
 		// TODO Auto-generated method stub
 		if(play2 == true) {

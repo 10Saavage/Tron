@@ -10,6 +10,10 @@ import junit.framework.TestCase;
  *
  */
 public class Player2Test extends TestCase {
+	
+	/**
+	 * pour le test des méthodes de la classe Player2
+	 */
 	Player2 p2 = new Player2();
 
 	protected void setUp() throws Exception {

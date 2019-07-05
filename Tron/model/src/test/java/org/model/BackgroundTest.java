@@ -19,6 +19,9 @@ import org.junit.Test;
  *
  */
 public class BackgroundTest {
+	/**
+	 * pour le test de l'image
+	 */
 	Background bg =new Background();
 
 	/**

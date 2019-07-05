@@ -20,7 +20,7 @@ import javax.sound.sampled.UnsupportedAudioFileException;
  */
 public class Music {    
     /**
-     * @param sonFile
+     * @param sonFile le chemin d'accès du fichier son.wav
      */
     public static void Play(String sonFile) { //la m�thode importante qui sert � jouer le son � chaque fois qu'on l'appelle en y passant l'URL du fichier...
       SourceDataLine soundLine = null;

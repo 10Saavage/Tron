@@ -12,6 +12,9 @@ import org.view.GameFrame;
  */
 public class Jouer {
 	
+	/**
+	 * pour éxécuter le programme à l'extentension de la classe
+	 */
 	public Jouer() {
 		execution();
 	}

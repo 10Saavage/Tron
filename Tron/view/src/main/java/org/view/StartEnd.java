@@ -6,9 +6,21 @@ import org.model.BoolTime;
 
 public class StartEnd {
 	
+	/**
+	 * gérer le début du jeu
+	 */
 	static boolean jouer = true;
+	/**
+	 * le nom du gagnant
+	 */
 	static String win;
+	/**
+	 * le temps de début du jeu
+	 */
 	static long temps_début= System.currentTimeMillis();
+	/**
+	 * temps partie terminée
+	 */
 	static long temps_jeu;
 	// TODO Auto-generated constructor stub
 	

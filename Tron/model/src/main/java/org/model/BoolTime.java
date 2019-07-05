@@ -9,8 +9,17 @@ package org.model;
  */
 public class BoolTime {
 	
+	/**
+	 * pour la fin et le début du jeu
+	 */
 	protected boolean valeur;
+	/**
+	 *pour le temps de jeu 
+	 */
 	protected int time;
+	/**
+	 * pour le vainqueur du jeu
+	 */
 	protected String winner;
 	
 	/**

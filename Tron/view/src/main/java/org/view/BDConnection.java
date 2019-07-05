@@ -15,15 +15,27 @@ import org.view.StartEnd;
  *
  */
 public class BDConnection implements BDconnexion {
+	/**
+	 * nom de la base de données
+	 */
 	private String URL="jdbc:mysql://localhost/tron_rattrapage?autoReconnect=true&useSSL=false";
+	/**
+	 *nom d'utilisteur du serveur mysql 
+	 */
 	private String LOGIN="root";
+	/**
+	 * mot de passe de l'identifiant
+	 */
 	private String PASSWORD="";
+	/**
+	 * pour la connection à la BDD
+	 */
 	private java.sql.Connection connection;
 	
 	
 
 	/**
-	 * 
+	 * éxécuter les codes dès qu'il est extensié
 	 */
 	public BDConnection() {
 		// TODO Auto-generated constructor stub

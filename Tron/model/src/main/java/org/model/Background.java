@@ -5,10 +5,13 @@ import java.awt.Image;
 import javax.swing.ImageIcon;
 
 public class Background {
+	/**
+	 *pour l'image d'arrière plan 
+	 */
 	protected Image image;
 		
 	/**
-	 * 
+	 * fixer l'image d'arrière plan
 	 */
 	public Background() {
 		this.setImage(image = new ImageIcon("C:\\Users\\TOUSSI Manoel\\git\\Tron\\Tron\\Ressources\\images\\fond.jpg").getImage());

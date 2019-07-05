@@ -10,14 +10,14 @@ import org.model.Background;
 
 public class GamePanel extends JPanel {
 	
+	/**
+	 * enlever le warning
+	 */
 	private static final long serialVersionUID = 1646853571417461449L;
+	/**
+	 * dessiner l'image d'arrière plan
+	 */
 	Background background = new Background();
-
-	
-	
-	public GamePanel() {
-		
-	}
 	
 	
 	/**

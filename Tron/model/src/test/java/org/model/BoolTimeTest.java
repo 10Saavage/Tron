@@ -14,6 +14,9 @@ import org.junit.Test;
  *
  */
 public class BoolTimeTest {
+	/**
+	 *pour le test des méthodes de la classe BoolTime 
+	 */
 	BoolTime bt = new BoolTime();
 
 	/**

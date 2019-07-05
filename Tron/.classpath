@@ -17,7 +17,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="Ressources/JUnit/hamcrest-library-2.1.jar"/>
-	<classpathentry kind="lib" path="Ressources/JUnit/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="Ressources/lib/hamcrest-library-2.1.jar"/>
+	<classpathentry kind="lib" path="Ressources/lib/junit-4.12.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

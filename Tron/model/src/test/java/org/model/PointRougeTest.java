@@ -14,6 +14,9 @@ import org.junit.Test;
  *
  */
 public class PointRougeTest {
+	/**
+	 * pour le test des méthodes de la classe PointRouge
+	 */
 	PointRouge pr = new PointRouge(2, 2);
 
 	/**

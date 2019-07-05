@@ -11,6 +11,9 @@ import junit.framework.TestCase;
  */
 public class Player1Test extends TestCase {
 
+	/**
+	 * pour le test des méthodes de la classe Player1
+	 */
 	Player1 p1= new Player1();
 	protected void setUp() throws Exception {
 		super.setUp();
